@@ -1,12 +1,12 @@
 import React from 'react';
-import Globo from '../src/img/globoynubes.png'
-import './style.css';
+import Globo from '../Assets/img/globoynubes.png'
+import './Style.css';
 
 const Header = () => {
     return (
         <div>
             <img src={Globo}
-            classname="globoynubes" 
+            className="globoynubes" 
             alt="#"/>
         </div>
     )

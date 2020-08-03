@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Carrousel1 from '../src/img/carrousel1.png';
-import Carrousel2 from '../src/img/carrousel2.png';
-import Carrousel3 from '../src/img/carrousel3.png';
-import './style.css';
+import Carrousel1 from '../Assets/img/carrousel1.png';
+import Carrousel2 from '../Assets/img/carrousel2.png';
+import Carrousel3 from '../Assets/img/carrousel3.png';
+import './Style.css';
 
  const Carrousel = () => {
 
@@ -18,7 +18,7 @@ import './style.css';
 
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect} className="carusel">
+        <Carousel activeIndex={index} onSelect={handleSelect} className="carrusel">
       <Carousel.Item>
         <img
           className="d-block w-100"
