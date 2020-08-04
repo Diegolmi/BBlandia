@@ -13,6 +13,7 @@
     width: 300px;
     margin: 10px
 }
+
 .card {
     width: 360px;
     height: 360px;
@@ -22,6 +23,8 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    background-color: whitesmoke !important;
+
 }
 .card  span {
     height: 100%;
