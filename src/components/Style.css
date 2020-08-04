@@ -136,7 +136,7 @@ content a {
     display: block;
     margin: auto;
     padding: 10px;
-    color: #c1c1c1
+    color: #fff;
 }
 .card:hover .content {
     transform: translateY(0);
