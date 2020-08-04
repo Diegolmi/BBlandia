@@ -12,9 +12,9 @@ import './components/Style.css';
 function App() {
   return (
     <>
-    <NavbarPage />
+    
     <div className="App">
-      
+    <NavbarPage />
      <Carrousel />
      {/*<Header />*/}
      <Section />
