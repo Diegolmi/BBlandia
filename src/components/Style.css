@@ -1,13 +1,16 @@
 .App {
     padding: 10px 70px;
 }
+
 .logo {
     height: 70px;
     width: 70px;
 }
+
 .carrusel {
     margin: 0px !important;
 }
+
 .niños {
     height: 300px;
     width: 300px;
@@ -26,7 +29,8 @@
     background-color: whitesmoke !important;
 
 }
-.card  span {
+
+.card span {
     height: 100%;
     background: url(../Assets/img/niñomodelo.jpg) no-repeat;
     background-size: cover;
@@ -35,6 +39,7 @@
     transition: 1s;
 
 }
+
 .card .foto1 span {
     height: 100%;
     background: url(../Assets/img/nenamodelo.jpg) no-repeat;
@@ -44,6 +49,7 @@
     transition: 1s;
 
 }
+
 .card .foto2 span {
     height: 100%;
     background: url(../Assets/img/Beni.png) no-repeat;
@@ -53,6 +59,7 @@
     transition: 1s;
 
 }
+
 .card .foto3 span {
     height: 100%;
     background: url(../Assets/img/logo1.png) no-repeat;
@@ -62,6 +69,7 @@
     transition: 1s;
 
 }
+
 .card .foto5 span {
     height: 100%;
     background: url(../Assets/img/Martina.png) no-repeat;
@@ -71,6 +79,7 @@
     transition: 1s;
 
 }
+
 .card .foto6 span {
     height: 100%;
     background: url(../Assets/img/Nacho.png) no-repeat;
@@ -80,44 +89,54 @@
     transition: 1s;
 
 }
+
 .card span:nth-child(1) {
     z-index: 10;
     width: 25%;
     transition-delay: 0;
 }
+
 .card span:nth-child(2) {
     z-index: 9;
     width: 50%;
     transition-delay: 0.3s;
 }
+
 .card span:nth-child(3) {
     z-index: 8;
     width: 75%;
     transition-delay: 0.6s;
 }
+
 .card span:nth-child(4) {
     z-index: 7;
     width: 100%;
     transition-delay: 0.8s;
 }
+
 .card:hover span {
     transform: translateY(-100%);
     transition: 1s;
 }
+
 .card:hover span:nth-child(1) {
     transition-delay: 0.8s;
 }
+
 .card:hover span:nth-child(2) {
     transition-delay: 0.6s;
 }
+
 .card:hover span:nth-child(3) {
     transition-delay: 0.3s;
 }
+
 .card:hover span:nth-child(4) {
     transition-delay: 0;
 }
+
 .content {
-    color:#fff;  
+    color: #fff;
     text-align: center;
     padding: 80px 20px;
     width: 100%;
@@ -127,9 +146,11 @@
     transition: 2s;
 
 }
+
 .content p {
     color: #999
 }
+
 content a {
     width: 100%;
     text-decoration: none;
@@ -140,29 +161,60 @@ content a {
     padding: 10px;
     color: #fff;
 }
+
 .card:hover .content {
     transform: translateY(0);
 }
+
 .globo {
     height: 250px;
 
 }
-.footer {
-    background-color:#e07a62;
-    height: 100px;
-    width: 100%;
 
-}
+
+
 .quien {
     width: 100%;
 
 }
+
 .letras {
     color: black !important;
 }
+
 .familia {
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     width: 400px;
+    margin-top: 10px;
+
+}
+.footer {
+    background-color: #e07a62;
+    height: 150px;
+    width: 100%;
     
+
+
+}
+.logoFooter {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+
+}
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    margin-bottom: 50px;
+
+}
+
+
+.iconos {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
 }
