@@ -4,6 +4,7 @@ import Carrousel from './components/Carrousel';
 import Section from './components/Section'
 import NavbarPage from './components/Nav';
 import CardsEcommerce from './components/CardsEcommerce';
+import Footer from './components/Footer';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './components/Style.css';
 
@@ -18,11 +19,10 @@ function App() {
      <Section />
      <CardsEcommerce />
 
-
-
      
-    
+
     </div>
+    <Footer />
     </>
   );
 }

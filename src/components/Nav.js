@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'; 
 import Nav from 'react-bootstrap/Nav';
 import { Form, FormControl, Button } from 'react-bootstrap'; 
-import Logo from '../Assets/img/LOGO1.png';
+import Logo from '../Assets/img/logo2.png';
 import './Style.css';
 
 const NavbarPage = () => {

@@ -136,12 +136,18 @@ content a {
     display: block;
     margin: auto;
     padding: 10px;
-    color: #fff;
+    color: #c1c1c1
 }
 .card:hover .content {
     transform: translateY(0);
 }
 .globo {
     height: 250px;
+
+}
+.footer {
+    background-color: #E67E22;
+    height: 100px;
+    width: 100%;
 
 }
