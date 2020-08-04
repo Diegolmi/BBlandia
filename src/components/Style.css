@@ -148,7 +148,7 @@ content a {
 
 }
 .footer {
-    background-color: #E67E22;
+    background-color:#e07a62;
     height: 100px;
     width: 100%;
 
@@ -159,4 +159,10 @@ content a {
 }
 .letras {
     color: black !important;
+}
+.familia {
+    display:block;
+    margin:auto;
+    width: 400px;
+    
 }
