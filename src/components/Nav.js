@@ -8,12 +8,12 @@ import './Style.css';
 const NavbarPage = () => {
     return (
         <>
-  <Navbar bg="dark" variant="dark">
+  <Navbar bg="transparent" variant="dark">
     <Navbar.Brand href="#home"><img src={Logo} className="logo" alt="" /> </Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Incio</Nav.Link>
-      <Nav.Link href="#features">Nenes</Nav.Link>
-      <Nav.Link href="#pricing">Nenas   </Nav.Link> 
+      <Nav.Link href="#home" className="letras">Incio</Nav.Link>
+      <Nav.Link href="#features" className="letras">Nenes</Nav.Link>
+      <Nav.Link href="#pricing"className="letras">Nenas   </Nav.Link> 
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
