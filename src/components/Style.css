@@ -16,7 +16,6 @@
 .card {
     width: 360px;
     height: 360px;
-    background: #000;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     margin: 10% auto;
     position: relative;

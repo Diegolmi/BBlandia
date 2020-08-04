@@ -39,7 +39,7 @@ const CardsEcommerce = () => {
                 <Card.Body>
                     <Card.Title>Chaleco</Card.Title>
                     <Card.Text>
-                        Chaleco con plumas. Impermeable
+                        Chaleco con plumas. 
                     </Card.Text>
                     <Button variant="primary">Ver más</Button>
                 </Card.Body>
@@ -75,7 +75,7 @@ const CardsEcommerce = () => {
                 <Card.Body>
                     <Card.Title>Chaleco</Card.Title>
                     <Card.Text>
-                        Chaleco con plumas. Impermeable
+                        Chaleco con plumas.
                     </Card.Text>
                     <Button variant="primary">Ver más</Button>
                 </Card.Body>
@@ -111,7 +111,7 @@ const CardsEcommerce = () => {
                 <Card.Body>
                     <Card.Title>Chaleco</Card.Title>
                     <Card.Text>
-                        Chaleco con plumas. Impermeable
+                        Chaleco con plumas. 
                     </Card.Text>
                     <Button variant="primary">Ver más</Button>
                 </Card.Body>
@@ -147,7 +147,7 @@ const CardsEcommerce = () => {
                 <Card.Body>
                     <Card.Title>Chaleco</Card.Title>
                     <Card.Text>
-                        Chaleco con plumas. Impermeable
+                        Chaleco con plumas.
                     </Card.Text>
                     <Button variant="primary">Ver más</Button>
                 </Card.Body>
