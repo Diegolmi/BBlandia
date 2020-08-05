@@ -1,8 +1,7 @@
 import React from 'react';
 import Quienes from '../Assets/img/quienesSomos2.png'
 import Familia from '../Assets/img/familia.jpg';
-import Image from 'react-bootstrap/Image'
-
+    
 import './Style.css';
  const About = () => {
     return (

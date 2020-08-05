@@ -191,8 +191,9 @@ content a {
 }
 .footer {
     background-color: #e07a62;
-    height: 150px;
+    height: auto;
     width: 100%;
+    margin-bottom: 0 !important;
     
 
 
@@ -200,7 +201,7 @@ content a {
 .logoFooter {
     height: 70px;
     width: 70px;
-    margin: 10px;
+    margin: 30px;
 
 }
 .redes {
