@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'; 
 import Nav from 'react-bootstrap/Nav';
-import { Form, FormControl, Button } from 'react-bootstrap'; 
 import Logo from '../Assets/img/logo2.png';
 import './Style.css';
 
@@ -15,10 +14,7 @@ const NavbarPage = () => {
       <Nav.Link href="#features" className="letras">Nenes</Nav.Link>
       <Nav.Link href="#pricing"className="letras">Nenas   </Nav.Link> 
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form>
+    
   </Navbar>
             
         </>

@@ -11,7 +11,7 @@ const Section = () => {
 
         <Container fluid>
             <Row>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <div className="foto1">
                             <span></span>
@@ -28,7 +28,7 @@ const Section = () => {
 
                     </div>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <div className="foto2">
                             <span></span>
@@ -43,7 +43,7 @@ const Section = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <div className="foto3">
                             <span></span>
@@ -58,7 +58,7 @@ const Section = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <span></span>
                         <span></span>
@@ -73,7 +73,7 @@ const Section = () => {
 
                     </div>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <div className="foto5">
                             <span></span>
@@ -88,7 +88,7 @@ const Section = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{ width: '18rem' }}>
                     <div className="card">
                         <div className="foto6">
                             <span></span>
@@ -108,7 +108,7 @@ const Section = () => {
             </Row>
             <Container>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} style={{ width: '18rem' }}>
                         <div className="divisor">
                             <img src={Globo} alt="" className="globo" />
                         </div>
