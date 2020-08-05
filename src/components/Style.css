@@ -210,7 +210,17 @@ content a {
     justify-content: left;
     padding: 15px;
     margin-bottom: 50px;
+    
 
+}
+.nTitulo {
+    margin: 10px;
+}
+.mapa{
+    margin-top: 20px;
+}
+.facebook {
+    padding: 10px;
 }
 
 
