@@ -1,4 +1,3 @@
-
 .logo {
     height: 70px;
     width: 70px;
@@ -163,7 +162,7 @@ content a {
     transform: translateY(0);
 }
 
-@media (min-width: 300px) and (max-width: 549px) { 
+@media (min-width: 300px) and (max-width: 549px) {
 
     .card {
         width: 150px;
@@ -175,8 +174,9 @@ content a {
         overflow: hidden;
         cursor: pointer;
         background-color: whitesmoke !important;
-    
+
     }
+
     .card span {
         height: 100%;
         background: url(../Assets/img/niñomodelo.jpg) no-repeat;
@@ -184,9 +184,9 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card .foto1 span {
         height: 100%;
         background: url(../Assets/img/nenamodelo.jpg) no-repeat;
@@ -194,9 +194,9 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card .foto2 span {
         height: 100%;
         background: url(../Assets/img/Beni.png) no-repeat;
@@ -204,9 +204,9 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card .foto3 span {
         height: 100%;
         background: url(../Assets/img/logo1.png) no-repeat;
@@ -214,9 +214,9 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card .foto5 span {
         height: 100%;
         background: url(../Assets/img/Martina.png) no-repeat;
@@ -224,9 +224,9 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card .foto6 span {
         height: 100%;
         background: url(../Assets/img/Nacho.png) no-repeat;
@@ -234,54 +234,54 @@ content a {
         position: absolute;
         left: 0;
         transition: 1s;
-    
+
     }
-    
+
     .card span:nth-child(1) {
         z-index: 10;
         width: 25%;
         transition-delay: 0;
     }
-    
+
     .card span:nth-child(2) {
         z-index: 9;
         width: 50%;
         transition-delay: 0.3s;
     }
-    
+
     .card span:nth-child(3) {
         z-index: 8;
         width: 75%;
         transition-delay: 0.6s;
     }
-    
+
     .card span:nth-child(4) {
         z-index: 7;
         width: 100%;
         transition-delay: 0.8s;
     }
-    
+
     .card:hover span {
         transform: translateY(-100%);
         transition: 1s;
     }
-    
+
     .card:hover span:nth-child(1) {
         transition-delay: 0.8s;
     }
-    
+
     .card:hover span:nth-child(2) {
         transition-delay: 0.6s;
     }
-    
+
     .card:hover span:nth-child(3) {
         transition-delay: 0.3s;
     }
-    
+
     .card:hover span:nth-child(4) {
         transition-delay: 0;
     }
-    
+
     .content {
         color: rgb(2, 2, 2);
         text-align: center;
@@ -291,13 +291,13 @@ content a {
         box-sizing: auto;
         transform: translateY(100%);
         transition: 2s;
-    
+
     }
-    
+
     .content p {
         color: black
     }
-    
+
     content a {
         width: 100%;
         text-decoration: none;
@@ -308,42 +308,54 @@ content a {
         padding: 10px;
         color: #fff;
     }
-    
+
     .card:hover .content {
         transform: translateY(0);
     }
+
     .globo {
-        height: 50px;
-    
+        height: 100px;
+        
+
+
+
     }
-    
-    
-    
+
+    .textoAbout {
+        margin: 10px;
+    }
+
+
+
     .quien {
         width: 100%;
-    
+
+
     }
-    
+
     .letras {
         color: black !important;
     }
-    
-   
-    
+
+    .textGlobo {
+        height: 100px;
+    }
 
 
 
- }
 
-
-@media (min-width: 768px) { }
-
-
-.globo {
-    height: 250px;
 
 }
 
+
+@media (min-width: 768px) {}
+
+
+
+.globo {
+    height: 200px;
+
+}
 
 
 .quien {
@@ -362,36 +374,46 @@ content a {
     margin-top: 10px;
 
 }
+
+.textoAbout {
+    margin: 10px;
+}
+
 .footer {
     background-color: #e07a62;
     height: auto;
     width: 100%;
     margin-bottom: 0 !important;
-    
+
 
 
 }
+
 .logoFooter {
     height: 70px;
     width: 70px;
     margin: 30px;
 
 }
+
 .redes {
     display: flex;
     align-items: center;
     justify-content: left;
     padding: 15px;
     margin-bottom: 50px;
-    
+
 
 }
+
 .nTitulo {
     margin: 10px;
 }
-.mapa{
+
+.mapa {
     margin-top: 20px;
 }
+
 .facebook {
     padding: 10px;
 }

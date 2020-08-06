@@ -10,7 +10,7 @@ import './Style.css';
             <img src={Quienes} alt="" className="quien" />
             <img src={Familia} alt="" md={{ span: 6, offset: 3 }} className="familia" />
         </div>
-        <div>
+        <div className="textoAbout">
             <p> Hola!! <br />
             Te cuento un poco de nosotros!!<br />
             Somos una familia que vivimos en San Miguel de Tucuman, Diego, Naty, Nacho y Benicio.

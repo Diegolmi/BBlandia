@@ -119,7 +119,7 @@ const Section = () => {
                             animationInDuration={6000}
                             animationOut="fadeOut"
                             isVisible={true} >
-                            <div>
+                            <div className="textGlobo">
                                 <h3>Ventas por mayor y por menor  </h3>
                             </div>
                         </Animated>
