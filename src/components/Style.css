@@ -313,13 +313,7 @@ content a {
         transform: translateY(0);
     }
 
-    .globo {
-        height: 100px;
-        
-
-
-
-    }
+    
 
     .textoAbout {
         margin: 10px;
@@ -353,7 +347,8 @@ content a {
 
 
 .globo {
-    height: 200px;
+    height: 100px;
+    float: left;
 
 }
 
