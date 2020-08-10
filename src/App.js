@@ -8,12 +8,14 @@ import Footer from './components/Footer';
 import About from './components/About';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './components/Style.css';
+import Alerta from './components/Alerta';
 
 function App() {
   return (
     <>
     
     <div className="App">
+      <Alerta />
     <NavbarPage />
      <Carrousel />
      {/*<Header />*/}

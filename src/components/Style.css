@@ -313,18 +313,12 @@ content a {
         transform: translateY(0);
     }
 
-    
-
     .textoAbout {
         margin: 10px;
     }
 
-
-
     .quien {
         width: 100%;
-
-
     }
 
     .letras {
@@ -334,10 +328,6 @@ content a {
     .textGlobo {
         height: 100px;
     }
-
-
-
-
 
 }
 
